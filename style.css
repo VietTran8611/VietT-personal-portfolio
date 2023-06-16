@@ -29,6 +29,8 @@
     }
 }
 
+
+
 /* general style */
 html{
   scroll-behavior: smooth;
@@ -269,6 +271,9 @@ h3 { font-size: var(--fs-h3) }
     position: relative;
   }
 
+  .margin-extend{
+    right: 1em;
+  }
   .section__subtitle--intro{
     align-self: start;
     grid-column: -1/1;
@@ -385,13 +390,14 @@ h3 { font-size: var(--fs-h3) }
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     
 }
 
 .portfolio__item{
   background: var(--clr-accent);
   overflow: hidden;
+  aspect-ratio: 1.7/1;
 }
 
 .portfolio__img{
@@ -474,4 +480,10 @@ footer a{
 .project-intro{
   margin-bottom: 1em;
   padding-bottom: 0;
+}
+
+
+/* patching */
+.github-link{
+  color: cyan;
 }
