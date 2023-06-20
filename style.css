@@ -397,7 +397,7 @@ h3 { font-size: var(--fs-h3) }
 .portfolio__item{
   background: var(--clr-accent);
   overflow: hidden;
-  aspect-ratio: 1.7/1;
+  aspect-ratio: 1.76/1;
 }
 
 .portfolio__img{
@@ -486,4 +486,9 @@ footer a{
 /* patching */
 .github-link{
   color: cyan;
+}
+
+.calculator-img{
+  position: relative;
+  top: 1em;
 }
