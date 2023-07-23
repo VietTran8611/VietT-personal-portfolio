@@ -497,3 +497,12 @@ footer a{
   position: relative;
   top: 1em;
 }
+
+.about-me-pic{
+  margin-top: 2em;
+}
+
+.vid{
+  width: 100%;
+  height: auto;
+}
