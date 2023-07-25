@@ -411,7 +411,7 @@ h3 { font-size: var(--fs-h3) }
 .portfolio__item{
   background: var(--clr-accent);
   overflow: hidden;
-  aspect-ratio: 2/1;
+  aspect-ratio: 2/0.9;
 }
 
 .portfolio__img{
@@ -507,3 +507,10 @@ footer a{
   top: 1em;
 }
 
+.vhdl{
+  margin-top: 1em;
+}
+
+.big{
+  height: 200%;
+}
