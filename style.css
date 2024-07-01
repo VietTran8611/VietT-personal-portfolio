@@ -514,3 +514,8 @@ footer a{
 .big{
   height: 200%;
 }
+
+.pdf{
+  max-width: 80%;
+  margin: 1em auto;
+}
