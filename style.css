@@ -405,11 +405,9 @@ h3 { font-size: var(--fs-h3) }
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    
 }
 
 .portfolio__item{
-  background: var(--clr-accent);
   overflow: hidden;
   aspect-ratio: 2/0.9;
 }
@@ -417,6 +415,7 @@ h3 { font-size: var(--fs-h3) }
 .portfolio__img{
   transition: transform 750ms cubic-bezier(.5,0,.5,1),
   opacity 250ms linear;
+  width: 100%;
 }
 
 .portfolio__img:hover,
