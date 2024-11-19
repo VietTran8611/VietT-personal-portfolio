@@ -35,20 +35,19 @@
 
     <!-- Introduction -->
     <section class="intro project-intro" id="home">
-      <h1 class="section__title section__title--intro">Ecom website <strong class="strong">Template</strong></h1>
+      <h1 class="section__title section__title--intro">Ecom website <strong class="strong">Full stack</strong></h1>
       <p class="section__subtitle section__subtitle--intro">Solve every valid sudoko puzzle</p>
       <img src="img\E-commerce_web_design_EWM_SA_Digital_Agency_Geneva.jpg" alt="" class="img-profile margin-extend">
     </section>
 
     <div class="full-size-width">
       <div class="portflio-item-individual">
-        <p>I almost got scammed into MLM scheme but see that their website is kinda sleek so I decide to make a ecom template website of my own</p>
-        <p>Website is made with React + Vite</p>
-        <p>Demo Link: <a class="github-link" href="https://viettran8611.github.io/e-commerce/">https://viettran8611.github.io/e-commerce/</a> </p>
-
+        <p>I almost got scammed into MLM scheme but see that their website is kinda sleek so I decide to make a full stack ecom website with MERN</p>
+        <p>Demo Link: <a class="github-link" href="https://ecom-kzus.onrender.com/">https://ecom-kzus.onrender.com/</a> </p>
+        <p>The website has authentication with sign up, verification and log in. I am using mailtrap to send email but I do not own any domain so it can only send it to my own email which explain the "show verification code" button. Here video of it in action and youtube video link: <a class="github-link" href="https://youtu.be/xdgS4dBHpOY">https://youtu.be/xdgS4dBHpOY</a></p>
         <video
         style="height: auto;width: 150%;"
-        src="vid/Ecom.mp4"
+        src="vid/ecom/auth.mp4"
         playbackRate = 2.0
         autoPlay
         loop
@@ -56,9 +55,51 @@
         playsInline
         class="vid"
         ></video>
-        <p>Source code at <a class="github-link" href="https://github.com/VietTran8611/e-commerce">https://github.com/VietTran8611/e-commerce</a>  </p>
-        <p>The template is created with reusable components, if you add data into corresponding json file the template will add it automatically. This is because I want to turn this into full stack with firebase once i learn how to host server side code in github pages</p>
-        <p>ALso plan to make seller interface to customize shop where they can customize shop asthetic and product, that is the reason for ability to change pofile picture (that is the 1st step)</p>
+        <p>The buyer can edit personal info, add item to cart, I do not make payment function cause this is demo site and I do not know how to test it without selling anything. All transaction are record in server and can be retrieve</p>
+        <p>Demo video of that and youtube link: <a class="github-link" href="https://youtu.be/y-NH0rKZtys">https://youtu.be/y-NH0rKZtys</a>  </p>
+        <video
+        style="height: auto;width: 150%;"
+        src="vid/ecom/user.mp4"
+        playbackRate = 2.0
+        autoPlay
+        loop
+        muted
+        playsInline
+        class="vid"
+        ></video>
+        <p>Seller can add new product, edit them or delete them. Demo video and youtube link: <a class="github-link" href="https://youtu.be/d8CC_TDBN4c">https://youtu.be/d8CC_TDBN4c</a> </p>
+        <video
+        style="height: auto;width: 150%;"
+        src="vid/ecom/seller.mp4"
+        playbackRate = 2.0
+        autoPlay
+        loop
+        muted
+        playsInline
+        class="vid"
+        ></video>
+        <p>Other client side function demo video, you can see the new and edited products added by seller form user pov. Youtube link: <a class="github-link" href="https://youtu.be/pA2y_JOUUAI">https://youtu.be/pA2y_JOUUAI</a> </p>
+        <video
+        style="height: auto;width: 150%;"
+        src="vid/ecom/otherUser.mp4"
+        playbackRate = 2.0
+        autoPlay
+        loop
+        muted
+        playsInline
+        class="vid"
+        ></video>
+        
+        <p>Source code at <a class="github-link" href="https://github.com/VietTran8611/ecom">https://github.com/VietTran8611/ecom</a>  </p>
+        <p>Doing full stack solo took more time than I expected so there is a lot of improvement I have not had time to do and here is the checklist</p>
+        <ul>
+          <li>Make it responsive</li>
+          <li>Add forgot email and reset password, I can already edit password in backend and have the email template ready I just have not had time to implement it in front end</li>
+          <li>Give seller more option to customize shop: change colour scheme, change banner, seller can actually change profile image but that did not save it in back end just yet</li>
+          <li>Improve stylling, some stylling like the sign up or log in page look a little bit rough cause I just rush through briefly</li>
+          <li>It is a long shot but may be add payement with Stripe</li>
+        </ul>
+        
       </div>
     </div>
     <!-- Footer -->
