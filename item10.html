@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>MERN Auth template</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="utility-bar">
+        <h3 class="name">Omnilios</h3>
+        <div>
+          <div class="dark" id="dark-div">
+            <i class="uil uil-moon" id="dark-mode"></i>
+            <i class="uil uil-sun" id="light-mode"></i>
+          </div>
+          <div class="nav-toggle" >
+            <i class="uil uil-apps" id="toggle-nav"></i>
+          </div>
+        </div>
+      </div>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="index.html#services" class="nav__link">My Service</a></li>
+          <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+          <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro project-intro" id="home">
+      <h1 class="section__title section__title--intro">MERN Auth <strong class="strong">Template</strong></h1>
+      <p class="section__subtitle section__subtitle--intro">Fast start for MERN project</p>
+      <img src="img/MERN-Auth.PNG" alt="" class="img-profile margin-extend calculator-img">
+    </section>
+
+    <div class="full-size-width">
+      <div class="portflio-item-individual">
+        <p>Everytime I want to do a MERN project I have to go through lengthy process of setting project up and do authentication, with token, cookies, email verification, ui design and protected route. So here is a template to help that  </p>
+        <p>The template has route guard and the styling on all these form is made by charka ui so they exist independently from other styling in your page and will not mess the styling up</p>
+        <p>Video demo of the template here, it is on localhost because I do not want to host a template like this on Render but it is set up to host there</p>
+        <video
+        style="height: auto;width: 150%"
+        src="vid\mern-auth.mp4"
+        playbackRate = 3.0
+        autoPlay
+        loop
+        muted
+        playsInline
+        class="vid"
+        ></video>
+        <p>All you need to do when want to make a new MERN project is clone the project, edit env according to read me. If you want to add new collection and end point, you just need to follow auth end point or the example end point I made (make controller, model, route on backend and create state "store" in front end where you call backend api and handle state)</p>
+        <p>I use mailtrap without a domain name so I can only send email to myself but if you have domain name you can set up your own mailtrap and edit mailtrap code in env</p>
+        <p>Since I use this for small project this template still lack forgot password, although I do have back end set up for that, and password strength check  </p>
+        <p>Source code at <a class="github-link" href="https://github.com/VietTran8611/mern-template">https://github.com/VietTran8611/mern-template</a></p>
+      </div>
+    </div>
+    <!-- Footer -->
+ <footer>
+   <a href="" class="footer__link">vietanhopencanada@gmail.com</a>
+   <ul class="social-list">
+      <li class="social-list__item">
+       <a class="social-list__link" href="https://mail.google.com/mail/u/vietanhopencanada@gmail.com">
+         <i class="uil uil-google"></i>
+       </a>
+      </li>
+     <li class="social-list__item">
+       <a class="social-list__link" href="">
+         <i class="uil uil-discord"></i>
+       </a>
+      </li>
+     <li class="social-list__item">
+       <a class="social-list__link" href="https://github.com/VietTran8611">
+         <i class="uil uil-github"></i>
+       </a>
+      </li>
+     <li class="social-list__item">
+       <a class="social-list__link" href="">
+         <i class="uil uil-instagram-alt"></i>
+       </a>
+      </li>
+   </ul>
+ </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

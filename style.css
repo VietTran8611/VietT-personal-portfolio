@@ -438,6 +438,10 @@ h3 { font-size: var(--fs-h3) }
   text-align: left;
 }
 
+.dark-text{
+  color: var(--clr-dark);
+}
+
 .card-btn{
   background-color: var(--clr-accent);
   color: var(--clr-dark-unchanged);
